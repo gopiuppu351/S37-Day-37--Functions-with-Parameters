@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+button{
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Crimson Text", serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #3E7B27;
+}
+
+h1{
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #740938;
+}
+
+
+form{
+  color: black;
+  background-color: #DFD7BF;
+  display: inline-block;
+  text-align: justify;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px black;
+}
+
+form div{
+  margin: 10px;
+}
+
+form label{
+  display: inline-block;
+  width: 150px;
+}
+
+.innerLabel{
+  font-size: 1.3rem;
+  width: 400px;
+  text-align: center;
+  color: #FF204E;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.innerbutton{
+  font-weight: 800;
+  color: black;
+  font-style: italic;
+}
+
+.buttonDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+span{
+  display: inline-block;
+  width: 70px;
+  border-radius: 5px;
+}
+
+fieldset{
+  margin: 15px;
+}
+
+legend{
+  text-align: justify;
+  font-size: 2.5rem;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #206A5D;
+}
